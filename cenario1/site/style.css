@@ -1,0 +1,225 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.inicio {
+    background-color: #be4116;
+}
+
+.cadastro {
+    background-color: #dcdcdc;
+    height: 1000px;
+}
+
+.FAQ {
+    background-color: #dcdcdc;
+    height: 600px;
+}
+
+.cabecalho {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    padding: 50px 0 0 20px;
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+.cabecalho__menu__link:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.inicio__link {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.inicio__link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.apresentacao__podcast {
+    display: flex;
+    align-items: flex-start;
+}
+
+.imagem__pessoas {
+    margin: 2em 2em 0 4.3em;
+}
+
+.container {
+    text-align: center;
+}
+
+.imagem__cadastro {
+    scale: 70%;
+}
+
+.podcast__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.podcast__nome {
+    font-family: 'Fjalla One', sans-serif;
+    color: #242424;
+    font-size: 150px;
+    margin-bottom: 0;
+    line-height: 1.0;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.podcast__subtitulo__texto {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+.boca__1 {
+    width: 60px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.boca__2 {
+    margin-right: 1em;
+    height: auto;
+    width: 30px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.btm__facebook {
+    background-color: #1a1385;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 90px;
+    width: 30%;
+}
+
+.btm__google {
+    background-color: #e5e5e5;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 90px;
+    width: 30%;
+    border: 1px solid #000000;
+}
+
+.texto-negrito {
+    font-weight: bold;
+    margin-left: -27%;
+    margin-top: 30px;
+}
+
+.texto-negrito-senha {
+    font-weight: bold;
+    margin-left: -29%;
+    margin-top: 30px;
+}
+
+.txtEmail {
+    width: 38%;
+    padding: 12px 20px;
+    margin: -15px 0;
+    box-sizing: border-box;
+}
+
+.inscrever-se {
+    background-color: #e85e09;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    border-radius: 90px;
+    width: 20%;
+    margin-top: 40px;
+}
+
+.cad1 {
+    color: #e85e09;
+    font-size: 64px;
+    margin-bottom: -40px;
+    margin-top: 20px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.container__FAQ_left {
+
+    width: 40%;
+    float: left;
+}
+
+.container__FAQ_right {
+    text-align: center;
+
+    width: 60%;
+    float: left;
+}
+
+.imagem__FAQ {
+    scale: 60%;
+    margin-left: -25%;
+}
+
+.titulo_FAQ {
+    font-size: 48px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #e85e09;
+}
+
+.txtAjuda {
+    width: 38%;
+    padding: 12px 20px;
+    margin: -15px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: none;
+    border-style: outset;
+}
+
+.titulo-tabela {
+    background-color: #e85e09;
+    color: white;
+    text-align: center;
+}
+
+table, th, td {
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+  border: 1px solid #e85e09;
+  border-collapse: collapse;
+}
