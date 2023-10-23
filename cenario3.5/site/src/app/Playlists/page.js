@@ -1,23 +1,10 @@
-"use client"
 import React from 'react';
 import './playlists.css';
-import axios from "axios";
+import playlists from "../data/playlist";
 import Link from 'next/link';
-import {useEffect, useState} from "react";
 
 
 function Playlists() {
-
-    const [playlists, setPlaylists] = useState([]);
-
-    useEffect(() =>{
-        axios.get("http://localhost:3001/playlists").then((result) =>{
-            setPlaylists(result.data);
-
-        })
-
-    })
-
     const playlistsFormat = playlists.map((playlist) => {
         return (
             <Link href={`/Playlists/detail/${playlist.id}`}>

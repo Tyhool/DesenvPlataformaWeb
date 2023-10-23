@@ -44,7 +44,7 @@ export default function CadastroPage() {
                             <p className="texto-negrito">Qual é o seu email?</p>
                         </div>
                         <div>
-                            <input type="text" onChange= { (e)=> setEmail(e.target.value) } className="txtEmail" placeholder="Insira seu email"required />
+                            <input type="text" onChange= { (e)=> setEmail(e.target.value) } className="txtEmail" placeholder="Insira seu email" />
                             
                         </div>
                         <div>

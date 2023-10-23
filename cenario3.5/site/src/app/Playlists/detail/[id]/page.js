@@ -1,24 +1,19 @@
 "use client"
 import React from "react";
+import playlists from "../../../data/playlist";
 import './../../playlists.css';
 import Link from "next/link";
-import axios from "axios";
-import {useEffect, useState} from "react";
 
 
 export default function Detail(props) {
   const idSelecionado = parseInt(props.params.id);
 
-  //const [playlists, setPlaylists] = useState([]);
-  const [playlistSelecionada, setPlaylistSelecionada] = useState(null);
 
-    useEffect(() =>{
-      
-        axios.get(`http://localhost:3001/playlists/${idSelecionado}`).then((result) =>{
-          setPlaylistSelecionada(result.data);
 
-        })
-    }, []);
+  const playlistSelecionada = playlists.find((playlist) => playlist.id === idSelecionado);
+
+  const playlistNome = playlistSelecionada.nome;
+  const playlistDescricao = playlistSelecionada.descricao;
 
   if (!playlistSelecionada) {
     return (
@@ -52,8 +47,8 @@ export default function Detail(props) {
   return (
     <div className='Playlists'>
       <div className='divisoria'>
-        <h2>Podcasts: {playlistSelecionada.nome} </h2>
-        <h2>Descrição: {playlistSelecionada.descricao}</h2>
+        <h2>Podcasts: {playlistNome} </h2>
+        <h2>Descrição: {playlistDescricao}</h2>
         <div className='lista'>
           {podcast}
         </div>

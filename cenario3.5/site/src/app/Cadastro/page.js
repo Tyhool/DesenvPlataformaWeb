@@ -77,7 +77,7 @@ function CadastroPage() {
                             <p>______________________ ou ______________________</p>
                         </div>
                         <div>
-                            <p className="texto-negrito-nome">Nome</p>
+                            <p className="texto-negrito-nome">Nome &nbsp;&nbsp;&nbsp;&nbsp;</p>
                             <input type="text" 
                             value={nome} 
                             onChange={(e) => setNome(e.target.value)} 
