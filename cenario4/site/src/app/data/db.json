@@ -70,26 +70,16 @@
             ]
         }
     ],
-    "detail": [
-        
-            
-            
-                {
-                    "podid": "10",
-                    "podnome": "Jovem Nerd - URL",
-                    "podArquivo": "https://nerdcast-cdn.jovemnerd.com.br/mamicas_127.mp3"
-                },
-                {
-                    "podid": "11",
-                    "podnome": "Lado Bunker - local",
-                    "podArquivo": "/music/ladobunker_116.mp3"
-                },
-                {
-                    "podid": "12",
-                    "podnome": "99 vidas",
-                    "podArquivo": "/music/99vidas-584-feriados.mp3"
-                }
-            
-        
+    "users":[
+        {
+            "nome": "Rafael",
+            "email": "r@r.com",
+            "senha":"rafa1029"
+        },
+        {
+            "nome": "Ana",
+            "email": "a@a.com",
+            "senha":"112233"
+        }
     ]
 }

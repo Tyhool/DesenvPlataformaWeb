@@ -41,7 +41,7 @@
   box-sizing: border-box;
 }
 
-.inscrever-se {
+.logar-se {
   background-color: #e85e09;
   border: none;
   color: white;
@@ -54,6 +54,7 @@
   width: 20%;
   margin-top: 40px;
 }
+
 
 .cad1 {
   color: #e85e09;
